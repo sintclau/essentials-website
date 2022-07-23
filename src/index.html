@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Essentials Romania</title>
+    <meta name="description" content="" />
+    <meta name="author" content="Essentials" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="items-center justify-center" style="min-height: 3000px; background-attachment: scroll; background-position: top; background-repeat: no-repeat; background-size: contain; background-image: url('Essentials\ Website.png');">
+      <button onclick="hide('hideme')">Disable</button>
+      <img id="hideme" src="logo.png" style="opacity: 10%; position:fixed;">
+    </div>
+    <script>
+      function hide(obj) {
+
+        var el = document.getElementById(obj);
+    
+            el.style.display = 'none';
+    
+    }
+    </script>
+  </body>
+</html>
